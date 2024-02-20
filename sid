@@ -1,0 +1,10 @@
+num=int(input("Enter a number:-")
+while(num>0):
+rem=num%10
+sum=sum+(rem*rem)
+num//=10
+
+if(sum==1):
+print("yes it is a happy number")
+else:
+print("not a happy nnumber")
